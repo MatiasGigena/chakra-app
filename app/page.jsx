@@ -57,7 +57,7 @@ const Home = () => {
 
   return (
     <section>
-      <div className="max-w-screen-xl  mx-auto px-4 py-20 gap-12 text-gray-600 md:px-8 xl:flex">
+      <div className="max-w-screen-xl  mx-auto px-4 py-14 gap-12 text-gray-600 md:px-8 xl:flex">
         <div className="space-y-7 max-w-2xl mx-auto text-center xl:text-left">
           <div className="flex flex-wrap items-center justify-center gap-6 xl:justify-start">
             {features.map((item, idx) => (
@@ -112,8 +112,8 @@ const Home = () => {
         </div>
 
         <div className="flex-1 max-w-xl mx-auto mt-14 xl:mt-1">
-          <div className="relative">
-            <img src="/about-kindy.jpg" className="rounded-xl h-[520px]" alt="" />
+          <div className="relative h-[520px] w-full">
+            <Image fill quality={100} src="/about-kindy.jpg" className="object-cover rounded-3xl" alt="" />
             <button
               className="absolute w-16 h-16 rounded-full inset-0 m-auto duration-150 bg-blue-500 hover:bg-blue-600 ring-offset-2 focus:ring text-white"
               onClick={() => setVideoPopUp(true)}>
@@ -160,7 +160,7 @@ const Home = () => {
       <Slider className="bg-green-600 py-5 w-full overflow-hidden" {...settings}>
       {images.map((image, index) => (
         <div key={index} className="relative h-56  w-full">
-          <Image loading="eager" fill src={image} alt={`Imagen ${index + 1}`} className="object-cover "/>
+          <Image loading="eager" fill src={image} alt="" className="object-cover "/>
         </div>
       ))}
     </Slider>

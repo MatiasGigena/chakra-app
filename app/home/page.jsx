@@ -26,13 +26,13 @@ const Homepage = () => {
                 perfeccion a los niños.
               </p>
               <a className="mt-3 text-green-600 inline-flex items-center">
-                Learn More
+                Mira más!
                 <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  stroke-width="2"
+                  strokeWidth="2"
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
                 >
@@ -52,13 +52,13 @@ const Homepage = () => {
                 facil en su desarrollo.
               </p>
               <a className="mt-3  text-green-600 inline-flex items-center">
-                Learn More
+                Mira más!
                 <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  stroke-width="2"
+                  strokeWidth="2"
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
                 >
@@ -79,13 +79,13 @@ const Homepage = () => {
                 y comprometida con el bienestar de los demás.
               </p>
               <a className="mt-3  text-green-600 inline-flex items-center">
-                Learn More
+                Mira más!
                 <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  stroke-width="2"
+                  strokeWidth="2"
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
                 >

@@ -38,7 +38,7 @@ const Form = () => {
           <div className="rounded-lg bg-white border border-gray-200 p-8 shadow-lg lg:col-span-3 lg:p-12">
             <form action="" className="space-y-4">
               <div>
-                <label className="sr-only" for="nombre">
+                <label className="sr-only" htmlFor="nombre">
                   Nombre
                 </label>
                 <input
@@ -51,7 +51,7 @@ const Form = () => {
 
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 <div>
-                  <label className="sr-only" for="email">
+                  <label className="sr-only" htmlFor="email">
                     Email
                   </label>
                   <input
@@ -63,7 +63,7 @@ const Form = () => {
                 </div>
 
                 <div>
-                  <label className="sr-only" for="Numero">
+                  <label className="sr-only" htmlFor="Numero">
                     Numero
                   </label>
                   <input
@@ -81,14 +81,14 @@ const Form = () => {
                     className="peer sr-only"
                     id="option1"
                     type="radio"
-                    tabindex="-1"
+                    tabIndex="-1"
                     name="option"
                   />
 
                   <label
-                    for="option1"
+                    htmlFor="option1"
                     className="block w-full rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-green-600 peer-checked:border-green-600 peer-checked:bg-green-600 peer-checked:text-white"
-                    tabindex="0"
+                    tabIndex="0"
                   >
                     <span className="text-sm"> Tengo una consulta </span>
                   </label>
@@ -99,14 +99,14 @@ const Form = () => {
                     className="peer sr-only"
                     id="option2"
                     type="radio"
-                    tabindex="-1"
+                    tabIndex="-1"
                     name="option"
                   />
 
                   <label
-                    for="option2"
+                    htmlFor="option2"
                     className="block w-full rounded-lg border  border-gray-200 p-3 text-gray-600 hover:border-green-600 peer-checked:border-green-600 peer-checked:bg-green-600 peer-checked:text-white"
-                    tabindex="0"
+                    tabIndex="0"
                   >
                     <span className="text-sm">
                       {" "}
@@ -120,14 +120,14 @@ const Form = () => {
                     className="peer sr-only"
                     id="option3"
                     type="radio"
-                    tabindex="-1"
+                    tabIndex="-1"
                     name="option"
                   />
 
                   <label
-                    for="option3"
+                    htmlFor="option3"
                     className="block w-full rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-green-600 peer-checked:border-green-600 peer-checked:bg-green-600 peer-checked:text-white"
-                    tabindex="0"
+                    tabIndex="0"
                   >
                     <span className="text-sm"> Solicitar visita guiada </span>
                   </label>
@@ -135,7 +135,7 @@ const Form = () => {
               </div>
 
               <div>
-                <label className="sr-only" for="mensaje">
+                <label className="sr-only" htmlFor="mensaje">
                   Mensaje
                 </label>
 

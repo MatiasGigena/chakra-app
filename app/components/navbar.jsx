@@ -32,6 +32,9 @@ const Navbar = () => {
               <li>
                 <a className="text-white">Cuotas, descuentos y promociones</a>
               </li>
+              <li>
+                <a href="/news" className="text-white">Noticias</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -40,7 +43,7 @@ const Navbar = () => {
         <a href="/" className="btn btn-ghost normal-case text-xl">
           Jardin Miralibres
         </a>
-        <Image src="/M-removebg-preview.png" width={60} height={0} />
+        <Image alt="" src="/M-removebg-preview.png" width={60} height={0} />
       </div>
       <div className="navbar-end">
     <button className="btn btn-ghost btn-circle">

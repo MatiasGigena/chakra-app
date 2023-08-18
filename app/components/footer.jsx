@@ -13,7 +13,7 @@ const Footer = () => {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
+                    href="/news"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Noticias
@@ -22,7 +22,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="/"
+                    href="/form"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Referencias
