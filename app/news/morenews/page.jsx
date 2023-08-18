@@ -49,7 +49,7 @@ const page = () => {
         <div className="group relative overflow-hidden h-[25rem] w-full rounded-xl">
           <div className="absolute inset-0 z-10 h-full w-full group-hover:bg-black/30"></div>
 
-          <Image loading="eager" fill src="/nathan-dumlao-P5MXtYfgmmw-unsplash.jpg" className="object-cover" alt="Nasi lemak cover" />
+          <Image loading="eager" fill src="/nathan-dumlao-P5MXtYfgmmw-unsplash-min.jpg" className="object-cover" alt="Nasi lemak cover" />
         </div>
       </div>
     </div>
