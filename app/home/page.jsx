@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Homepage = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 bg-white body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-3xl overflow-hidden">
           <Image
