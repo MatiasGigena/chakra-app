@@ -1,7 +1,7 @@
 import Image from "next/image"
 const page = () => {
   return (
-    <div className="p-[60px] bg-white">
+    <div className="p-[60px] mt-2 bg-white">
   <div className="flex flex-col items-center justify-center">
     <h1 className="font-medium text-center text-4xl">Revisa todas las noticias!</h1>
     <div className="container">

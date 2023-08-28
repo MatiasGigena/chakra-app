@@ -17,10 +17,10 @@ const Homepage = () => {
         <div className="flex flex-col flex-wrap justify-between lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left  text-center">
           <div className="flex flex-col mb-10 lg:items-start items-center">
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 className="text-gray-900 text-xl title-font font-medium mb-3">
                 Bilingüe
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-lg">
                 Nuestra educacion bilingüe es uno de nuestros fuertes, contamos
                 con profesores graduados con excelencia que enseñan a la
                 perfeccion a los niños.
@@ -43,10 +43,10 @@ const Homepage = () => {
           </div>
           <div className="flex flex-col mb-10 lg:items-start items-center">
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 className="text-gray-900 text-xl title-font font-medium mb-3">
                 Comunicación
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-lg">
                 La comunicacion es uno de los factores mas importantes para
                 nosotros, un niño que sabe comunicarse, va a tener un camino mas
                 facil en su desarrollo.
@@ -69,10 +69,10 @@ const Homepage = () => {
           </div>
           <div className="flex flex-col mb-10 lg:items-start items-center">
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 className="text-gray-900 text-xl title-font font-medium mb-3">
                 Valores
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-lg">
                 Los valores en los niños son semillas que cultivamos desde
                 temprana edad, como la honestidad, el respeto, la empatía y la
                 responsabilidad. Estos valores los guían hacia una vida íntegra

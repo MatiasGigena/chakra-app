@@ -1,6 +1,6 @@
 const Direccion = () => {
   return (
-    <div className="p-8 bg-white rounded-lg shadow dark:bg-gray-800">
+    <div className="p-8 bg-white rounded-lg mt-2 dark:bg-gray-800">
       <p className="text-3xl font-bold text-center text-gray-800 dark:text-white">
         Dirección Jardín Miralibres
       </p>

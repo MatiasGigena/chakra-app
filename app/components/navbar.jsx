@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-white shadow-md z-50">
+    <div className="navbar bg-white shadow-md z-[999]">
       <div className="flex-none">
         <div className="drawer">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
